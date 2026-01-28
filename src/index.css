@@ -1,0 +1,24 @@
+/* 讓字體預設使用 Noto Sans TC */
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #fdfbf7; /* 米白底色 */
+  margin: 0;
+  padding: 0;
+}
+
+/* 隱藏列印時不必要的元素 */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* 捲動軸美化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6c5b0;
+  border-radius: 3px;
+}
